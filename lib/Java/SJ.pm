@@ -2,13 +2,13 @@
 #
 # Java::SJ
 #
-# $Id: SJ.pm,v 1.3 2003/07/19 09:49:30 wiggly Exp $
+# $Id: SJ.pm,v 1.4 2003/07/20 18:52:15 wiggly Exp $
 #
 # $Author: wiggly $
 #
 # $DateTime$
 #
-# $Revision: 1.3 $
+# $Revision: 1.4 $
 #
 ###########################################################################
 
@@ -28,7 +28,7 @@ use IO::File;
 use IO::Handle;
 use Java::SJ::Config;
 
-our $VERSION = '0.0_1';
+our $VERSION = '0.01';
 
 our $LOG = undef;
 
