@@ -2,13 +2,13 @@
 #
 # Java::SJ::Config
 #
-# $Id: Config.pm,v 1.1.1.1 2003/07/19 02:17:34 wiggly Exp $
+# $Id: Config.pm,v 1.2 2003/07/19 09:49:47 wiggly Exp $
 #
 # $Author: wiggly $
 #
 # $DateTime$
 #
-# $Revision: 1.1.1.1 $
+# $Revision: 1.2 $
 #
 ###########################################################################
 
@@ -24,6 +24,8 @@ use IO::Handle;
 use XML::XPath;
 use Java::SJ::Classpath;
 use Java::SJ::VirtualMachine;
+
+our $VERSION = '0.0_0';
 
 my @CONFIG_FILE = 
 	(

@@ -18,3 +18,4 @@ sample/hello.sj
 sample/sleeper.class
 sample/sleeper.java
 sample/sleeper.sj
+t/01basic.t

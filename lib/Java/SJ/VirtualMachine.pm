@@ -2,13 +2,13 @@
 #
 # Java::SJ::VirtualMachine
 #
-# $Id: VirtualMachine.pm,v 1.1.1.1 2003/07/19 02:17:34 wiggly Exp $
+# $Id: VirtualMachine.pm,v 1.2 2003/07/19 09:49:47 wiggly Exp $
 #
 # $Author: wiggly $
 #
 # $DateTime$
 #
-# $Revision: 1.1.1.1 $
+# $Revision: 1.2 $
 #
 ###########################################################################
 
@@ -16,6 +16,8 @@ package Java::SJ::VirtualMachine;
 
 use Carp;
 use Data::Dumper;
+
+our $VERSION = '0.0_0';
 
 ###########################################################################
 #

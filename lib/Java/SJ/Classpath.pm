@@ -2,13 +2,13 @@
 #
 # Java::SJ::Classpath
 #
-# $Id: Classpath.pm,v 1.1.1.1 2003/07/19 02:17:34 wiggly Exp $
+# $Id: Classpath.pm,v 1.2 2003/07/19 09:49:47 wiggly Exp $
 #
 # $Author: wiggly $
 #
 # $DateTime$
 #
-# $Revision: 1.1.1.1 $
+# $Revision: 1.2 $
 #
 ###########################################################################
 
@@ -18,6 +18,8 @@ use Carp;
 use English;
 use Data::Dumper;
 use File::Glob qw( :glob );
+
+our $VERSION = '0.0_0';
 
 ###########################################################################
 #
